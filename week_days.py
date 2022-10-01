@@ -63,9 +63,9 @@ def temp_by_day():
         temperature = int(input("What is the temperature today?: "))
         if temperature < 50:
             print('Brr, put on a jacket!')
-        elif temperature >= 50 and temperature <= 65:
+        elif temperature <= 65:
             print('Cozy, grab a sweater')
-        elif temperature > 65:
+        else:
             print('Put on some sunscreen!')
             
 
